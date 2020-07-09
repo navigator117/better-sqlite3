@@ -22,7 +22,7 @@
               '<(SHARED_INTERMEDIATE_DIR)/sqlite3/sqlite3.h',
               '<(SHARED_INTERMEDIATE_DIR)/sqlite3/sqlite3ext.h',
             ],
-            'action': ['node', 'extract.js', '<(SHARED_INTERMEDIATE_DIR)/sqlite3'],
+            'action': ['node', '../deps/extract.js', '<(SHARED_INTERMEDIATE_DIR)/sqlite3'],
           }],
         }, {
           'actions': [{
